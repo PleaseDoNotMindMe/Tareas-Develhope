@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Registration</h1>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="E-mail" />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+      />
+      <label for="fullname">Name and Lastname:</label>
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        placeholder="Jhon Smith"
+      />
+      <label for="birth">Date of birth:</label>
+      <input type="date" id="birth" name="birth" placeholder="31-1-2001" />
+      <label for="tel">Phone number:</label>
+      <input type="tel" id="tel" name="tel" placeholder="+34 600 702 890" />
+      <label for="plans">Choose your plan:</label>
+      <select name="plans" id="plans">  
+        <option value="1">Plan 1; Free plan</option>
+        <option value="2">Plan 2; 20€</option>
+        <option value="3">
+          Plan 3; Pro premium deluxe, supreme gucci 50K €
+        </option>
+      </select>
+      <label for="creditcard">Credit Card Number:</label>
+      <input
+        type="number"
+        id="creditcard"
+        name="creditcard"
+        placeholder="4111 1111 1111 1111"
+      />
+      <label for="cvc">CVC:</label>
+      <input type="number" id="cvc" name="cvc" placeholder="123" />
+      <label for="expirationdate">Expiration date:</label>
+      <input
+        type="text"
+        id="expirationdate"
+        name="expirationdate"
+        placeholder="04/27"
+      />
+      <label for="billingaddress">Billing address:</label>
+      <input
+        type="text"
+        id="billingaddress"
+        name="billingaddress"
+        placeholder="Bigtown BG23 4YZ"
+      />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
