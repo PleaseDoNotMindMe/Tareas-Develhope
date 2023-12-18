@@ -1,0 +1,40 @@
+*{
+  font-family: 'Courier New', Courier, monospace;  
+}
+
+article {
+  width: 300px;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.text{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  border-bottom: 1px solid gray;
+}
+
+a{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+#uno{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+
+  text-align: justify;
+  justify-content: left;
+}
+
+section{
+    border-top: 1px solid blue;
+}
